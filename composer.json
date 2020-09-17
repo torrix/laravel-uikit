@@ -1,0 +1,34 @@
+{
+    "name": "torrix/laravel-uikit",
+    "description": "UIkit starter template for Laravel 8",
+    "minimum-stability": "stable",
+    "keywords": [
+        "laravel",
+        "uikit",
+        "fortify",
+        "jetstream"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Fletcher",
+            "email": "matt@torrix.uk"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.3",
+        "uikit/uikit": "^v3.5.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Torrix\\Providers\\LaravelUikitServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Torrix\\": "app/"
+        }
+    }
+}

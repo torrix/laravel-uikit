@@ -1,0 +1,6 @@
+// This is how you might override UIkit default variables
+$global-primary-background: #491165;
+
+@import "../../vendor/uikit/uikit/src/scss/variables-theme.scss";
+@import "../../vendor/uikit/uikit/src/scss/mixins-theme.scss";
+@import "../../vendor/uikit/uikit/src/scss/uikit-theme.scss";
