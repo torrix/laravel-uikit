@@ -97,6 +97,7 @@ npm install && npm run dev
 ```
 Sometimes, `npm run dev` needs to be run twice to complete the installation. 
 Read the output carefully to see if this is the case.
+
 5. Run the built-in development server
 ```
 php artisan serve
@@ -155,10 +156,3 @@ of this worthwhile.
 This template is open-source software licensed under the 
 [MIT license](https://opensource.org/licenses/MIT) - see the 
 [LICENSE.md](LICENSE.md) file for details
-
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../laravel-uikit"
-        }
-    ],
