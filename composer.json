@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Torrix\\Providers\\LaravelUikitServiceProvider"
+                "Torrix\\LaravelUikitServiceProvider"
             ]
         }
     },
