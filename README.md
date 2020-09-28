@@ -91,6 +91,16 @@ php artisan vendor:publish --provider="Laravel\\Fortify\\FortifyServiceProvider"
 
 php artisan migrate
 ```
+
+Add in `config/app.php`:
+
+```
+ 'providers' => [
+        // ...
+        App\Providers\FortifyServiceProvider::class,
+    ],
+```
+
 4. Run NPM to build your CSS and JS assets using Laravel Mix:
 ```
 npm install && npm run dev
