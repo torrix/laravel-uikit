@@ -87,7 +87,7 @@ configure the file `.env` with the correct credentials for it.
 ```
 composer require laravel/fortify
 
-php artisan vendor:publish --provider="Laravel\\Fortify\\FortifyServiceProvider"
+php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
 
 php artisan migrate
 ```
